@@ -39,7 +39,7 @@
             </nav>
 
             <div class="hero-text text-white w-100 px-2 px-sm-0">
-                <h1 class="display-1" data-aos="zoom-in">My Portfolio</h1>
+                <h1 class="display-2" data-aos="fade-left">My Portfolio</h1>
             </div>
 
             <div class="icon-scroll">
@@ -53,11 +53,6 @@
         </div>
     </header>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="empty col-12"></div>
-        </div>
-    </div>
 
     <main class="portfolio-list">
         <div class="container-fluid p-0">
@@ -108,35 +103,37 @@
 
                 <!--item 5-->
                 <div class="col-12 col-sm-6 col-xl-3 order-sm-9 order-xl-9">
-                    <img class="img-fluid" src="images/madlibs2.png" alt="">
+                    <img class="img-fluid" src="images/resto2.png" alt="">
                 </div>
                 <div
                     class="col-12 col-sm-6 col-xl-3 text-center mt-5 mt-sm-4 mt-lg-5 mt-xl-4 mb-5 mb-sm-0 order-sm-10 order-xl-10 point-left lefty">
-                    <h4 class=" title">Madlibs game</h4>
-                    <p class="description">HTML, CSS, Javascript</p>
-                    <a class="btn text-white" href="https://katrienvermiert.github.io/madlibs/" target="_blank">Website</a>
+                    <h4 class=" title">Restaurant page</h4>
+                    <p class="description">HTML, CSS, bootstrap</p>
+                    <a class="btn text-white" href="https://katrienvermiert.github.io/restaurant-css-framework/" target="_blank">Website</a>
                 </div>
                 <!--item 6-->
                 <div class="col-12 col-sm-6 col-xl-3 order-sm-12 order-xl-11">
-                    <img class="img-fluid" src="images/pokedex2.png" alt="">
-                </div>
-                <div
-                    class="col-12 col-sm-6 col-xl-3 text-center mt-5 mt-sm-4 mt-lg-5 mt-xl-4 mb-5 mb-sm-0 order-sm-11 order-xl-12 point-left righty">
-                    <h4 class=" title">Pokedex</h4>
-                    <p class="description">HTML, CSS, Javascript, API</p>
-                    <a class="btn text-white" href="https://katrienvermiert.github.io/ajax-pokedex/" target="_blank">Website</a>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <!--item 7-->
-                <div class="col-12 col-sm-6 col-xl-3 order-sm-1 order-xl-2">
                     <img class="img-fluid" src="images/cinema2.png" alt="">
                 </div>
                 <div
-                    class="col-12 col-sm-6 col-xl-3 text-center mt-5 mt-sm-4 mt-lg-5 mt-xl-4 mb-5 mb-sm-0 order-sm-2 order-xl-1 point-right lefty">
+                    class="col-12 col-sm-6 col-xl-3 text-center mt-5 mt-sm-4 mt-lg-5 mt-xl-4 mb-5 mb-sm-0 order-sm-11 order-xl-12 point-left righty">
                     <h4 class=" title">Cinema page</h4>
                     <p class="description">HTML, CSS, Javascript</p>
                     <a class="btn text-white" href="https://katrienvermiert.github.io/cinemapage2.0/" target="_blank">Website</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0" id="more" style="display: none">
+            <div class="row no-gutters">
+                <!--item 7-->
+                <div class="col-12 col-sm-6 col-xl-3 order-sm-1 order-xl-2">
+                    <img class="img-fluid" src="images/pokedex2.png" alt="">
+                </div>
+                <div
+                    class="col-12 col-sm-6 col-xl-3 text-center mt-5 mt-sm-4 mt-lg-5 mt-xl-4 mb-5 mb-sm-0 order-sm-2 order-xl-1 point-right lefty">
+                    <h4 class=" title">Pokedex</h4>
+                    <p class="description">HTML, CSS, Javascript, API</p>
+                    <a class="btn text-white" href="https://katrienvermiert.github.io/ajax-pokedex/" target="_blank">Website</a>
                 </div>
 
                 <!--item 8-->
@@ -162,13 +159,13 @@
                 </div>
                 <!--item 10-->
                 <div class="col-12 col-sm-6 col-xl-3 order-sm-8 order-xl-7">
-                    <img class="img-fluid" src="images/resto2.png" alt="">
+                    <img class="img-fluid" src="images/madlibs2.png" alt="">
                 </div>
                 <div
                     class="col-12 col-sm-6 col-xl-3 text-center mt-5 mt-sm-4 mt-lg-5 mt-xl-4 mb-5 mb-sm-0 order-sm-7 order-xl-8 point-left righty">
-                    <h4 class=" title">Restaurant page</h4>
-                    <p class="description">HTML, CSS</p>
-                    <a class="btn text-white" href="https://katrienvermiert.github.io/restaurant-css-framework/" target="_blank">Website</a>
+                    <h4 class=" title">Madlibs game</h4>
+                    <p class="description">HTML, CSS, Javascript</p>
+                    <a class="btn text-white" href="https://katrienvermiert.github.io/madlibs/" target="_blank">Website</a>
                 </div>
                 <!--item 11-->
                 <div class="col-12 col-sm-6 col-xl-3 order-sm-9 order-xl-10">
@@ -191,18 +188,16 @@
                     <p class="description">HTML, CSS</p>
                     <a class="btn text-white" href="https://katrienvermiert.github.io/404-page/" target="_blank">Website</a>
                 </div>
-
+            
             </div>
+            
         </div>
+        <button class="btn text-white m-3" id="button" onclick="show()">See more</button>
+
     </main>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="empty col-12"></div>
-        </div>
-    </div>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
