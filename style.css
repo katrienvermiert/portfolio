@@ -260,6 +260,11 @@ header > .container{
     z-index: 1;
 }
 
+#button{
+    background-color: #D1920D;
+    border: 1px solid white !important;
+}
+
 
 @media (max-width: 576px){
     .point-left::before,
